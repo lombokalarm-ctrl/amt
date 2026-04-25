@@ -13,6 +13,8 @@
                     <x-nav-link :href="route('surat_templates.index')" :active="request()->routeIs('surat_templates.*')">Template Surat</x-nav-link>
                     <x-nav-link :href="route('surat_keluars.index')" :active="request()->routeIs('surat_keluars.*')">Surat Keluar</x-nav-link>
                     <x-nav-link :href="route('keberangkatans.index')" :active="request()->routeIs('keberangkatans.*')">Keberangkatan</x-nav-link>
+                    <x-nav-link :href="route('akuntansi.index')" :active="request()->routeIs('akuntansi.*')">Akuntansi</x-nav-link>
+                    <x-nav-link :href="route('agens.index')" :active="request()->routeIs('agens.*')">Agen Mitra</x-nav-link>
                 </div>
             </div>
             <div class="hidden sm:flex sm:items-center sm:ms-6">
